@@ -1,0 +1,11 @@
+ version: "3.3"
+
+ services:
+   api-segmentacion:
+     build: ./api-segmentacion
+     ports:
+       - 8000:8000
+   websegmentacion:
+     build: ./websegmentacion
+     ports:
+       - 8080:80
